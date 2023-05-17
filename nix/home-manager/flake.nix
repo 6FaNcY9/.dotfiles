@@ -32,7 +32,7 @@
       in {
         formatter = pkgs.alejandra;
 
-        packages.homeConfigurations.vlad = home-manager.lib.homeManagerConfiguration {
+        packages.homeConfigurations.vino = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
 
           modules = [
